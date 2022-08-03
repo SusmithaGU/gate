@@ -32,8 +32,6 @@ jobs:
           echo ::set-output name=SKIP_RELEASE::${SKIP_RELEASE}
           echo ::set-output name=IS_CANDIDATE::${IS_CANDIDATE}
           echo ::set-output name=RELEASE_VERSION::${RELEASE_VERSION}
-          echo iscandidate=
-          echo ${IS_CANDIDATE}
       - name: Prepare build variables
         id: build_variables
         run: |
